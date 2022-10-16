@@ -1,0 +1,530 @@
+body{
+	margin:0;
+	padding:0;
+	font-family:"arial",heletica,sans-serif;
+	font-size:12px;
+    background: #2980b9 url('https://static.tumblr.com/03fbbc566b081016810402488936fbae/pqpk3dn/MRSmlzpj3/tumblr_static_bg3.png') repeat 0 0;
+	-webkit-animation: 10s linear 0s normal none infinite animate;
+	-moz-animation: 10s linear 0s normal none infinite animate;
+	-ms-animation: 10s linear 0s normal none infinite animate;
+	-o-animation: 10s linear 0s normal none infinite animate;
+	animation: 10s linear 0s normal none infinite animate;
+ 
+}
+ 
+@-webkit-keyframes animate {
+	from {background-position:0 0;}
+	to {background-position: 500px 0;}
+}
+ 
+@-moz-keyframes animate {
+	from {background-position:0 0;}
+	to {background-position: 500px 0;}
+}
+ 
+@-ms-keyframes animate {
+	from {background-position:0 0;}
+	to {background-position: 500px 0;}
+}
+ 
+@-o-keyframes animate {
+	from {background-position:0 0;}
+	to {background-position: 500px 0;}
+}
+ 
+@keyframes animate {
+	from {background-position:0 0;}
+	to {background-position: 500px 0;}
+}
+
+
+
+
+.caixa-texto{
+	margin: 0 0em;
+	font-size: 16px;
+	text-align: center;
+	margin-top: 0px;
+	margin-bottom: 2em;
+}
+
+.text{
+	font-size: 25px;
+	background-color: white;
+}
+
+
+/* primeiro card comeca aqui certificado responsividade com mobile firts*/
+
+
+.container1 {
+	width: 55vw;
+	height: 50vh;
+	display: grid;
+	flex-direction:row;
+	justify-content: center;
+	align-items: center;
+	
+	}
+
+.card1{
+	border-radius: 9px ;
+	align-items: flex-start;
+	display:block;
+    width: 20rem;
+    background-color: white;
+	font-size: 18px;
+	
+}
+
+.card-text1{
+	color: black;
+	text-decoration: none;
+	text-align: center;
+}
+ a:hover{
+	color: coral;
+	text-decoration: wavy;
+}
+.card-img-top1{
+	border-radius: 9px;
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+    width: 20rem;
+    align-items: center;
+
+}
+
+.card-body1{
+	text-align: center;
+    background-color: white;
+	border-radius: 10px;
+}
+
+/* segundo card comeca aqui certificado html parte 1*/
+
+.container2 {
+	width: 55vw;
+	height: 30vh;
+	display: grid;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+.card2{
+	border-radius: 9px ;
+	
+	align-items: flex-start;
+	display:block;
+    width: 20rem;
+    background-color: white;
+	font-size: 18px;
+	
+}
+
+.card-text2{
+	color: black;
+	text-decoration: none;
+	text-align: center;
+}
+
+.card-img-top2{
+	border-radius: 9px;
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+    width: 20rem;
+    align-items: center;
+
+}
+
+.card-body2{
+    text-align: center;
+    background-color: white;
+	border-radius: 10px;
+}
+
+/* terceiro card comeca aqui certificado html parte 2*/
+
+.container3 {
+	width: 60px;
+	height: 0vh;
+	display: grid;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	}
+
+.card3{
+	margin-top: -295px;
+	margin-left: 1870px;
+	border-radius: 9px ;
+	align-items: flex-start;
+    width: 20rem;
+    background-color: white;
+	font-size: 18px;
+	
+}
+
+.card-text3{
+	color: black;
+	text-decoration: none;
+	text-align: center;
+}
+
+.card-img-top3{
+	border-radius: 9px;
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+    width: 20rem;
+    align-items: center;
+
+}
+
+.card-body3{
+	text-align: center;
+    background-color: white;
+	border-radius: 10px;
+}
+
+/*Aqui comeca o 4 card certificado 3 html css*/
+
+.container4 {
+	width: 60px;
+	height: 0vh;
+	display: grid;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	}
+
+.card4{
+	margin-top: -295px;
+	margin-left: 2750px;
+	border-radius: 9px ;
+	align-items: flex-start;
+    width: 20rem;
+    background-color: white;
+	font-size: 18px;
+	
+}
+
+.card-text4{
+	color: black;
+	text-decoration: none;
+	text-align: center;
+}
+
+.card-img-top4{
+	border-radius: 9px;
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+    width: 20rem;
+    align-items: center;
+
+}
+
+.card-body4{
+    text-align: center;
+    background-color: white;
+	border-radius: 10px;
+}
+
+/*Aqui comeca o 5 card certificado 4 html css*/
+
+.container5 {
+	width: 60px;
+	height: 0vh;
+	display: grid;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	}
+
+.card5{
+	margin-top: -1075px;
+	margin-left: 1870px;
+	border-radius: 9px ;
+	align-items: flex-start;
+    width: 20rem;
+    background-color: white;
+	font-size: 18px;
+	
+}
+
+.card-text5{
+	color: black;
+	text-decoration: none;
+	text-align: center;
+}
+
+.card-img-top5{
+	border-radius: 9px;
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+    width: 20rem;
+    align-items: center;
+
+}
+
+.card-body5{
+    text-align: center;
+    background-color: white;
+	border-radius: 10px;
+}
+
+/*Aqui comeca o 6 card certificado html css*/
+
+.container6 {
+	width: 60px;
+	height: 0vh;
+	display: grid;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	}
+
+.card6{
+	margin-top: -1075px;
+	margin-left: 2750px;
+	border-radius: 9px ;
+	align-items: flex-start;
+    width: 20rem;
+    background-color: white;
+	font-size: 18px;
+	
+}
+
+.card-text6{
+	color: black;
+	text-decoration: none;
+	text-align: center;
+}
+
+.card-img-top6{
+	border-radius: 9px;
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+    width: 20rem;
+    align-items: center;
+
+}
+
+.card-body6{
+    text-align: center;
+    background-color: white;
+	border-radius: 10px;
+}
+
+
+/*Aqui comeca o 7 card certificado html css*/
+
+.container7 {
+	width: 60px;
+	height: 0vh;
+	display: grid;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	}
+
+.card7{
+	margin-top: 100px;
+	margin-left: 2750px;
+	border-radius: 9px ;
+	align-items: flex-start;
+    width: 20rem;
+    background-color: white;
+	font-size: 18px;
+	
+}
+
+.card-text7{
+	color: black;
+	text-decoration: none;
+	text-align: center;
+}
+
+.card-img-top7{
+	border-radius: 9px;
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+    width: 20rem;
+    align-items: center;
+
+}
+
+.card-body7{
+    text-align: center;
+    background-color: white;
+	border-radius: 10px;
+}
+
+
+/*Aqui comeca o 8 card certificado html css*/
+
+.container8 {
+	width: 60px;
+	height: 0vh;
+	display: grid;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	}
+
+.card8{
+	margin-top: 100px;
+	margin-left: 1865px;
+	border-radius: 9px ;
+	align-items: flex-start;
+    width: 20rem;
+    background-color: white;
+	font-size: 18px;
+	
+}
+
+.card-text8{
+	color: black;
+	text-decoration: none;
+	text-align: center;
+}
+
+.card-img-top8{
+	border-radius: 9px;
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+    width: 20rem;
+    align-items: center;
+
+}
+
+.card-body8{
+	text-align: center;
+    background-color: white;
+	border-radius: 10px;
+}
+
+/*Aqui comeca o 9 card certificado html css*/
+
+.container9 {
+	width: 60px;
+	height: 0vh;
+	display: grid;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	}
+
+.card9{
+	margin-top: 100px;
+	margin-left: 1000px;
+	border-radius: 9px ;
+	align-items: flex-start;
+    width: 20rem;
+    background-color: white;
+	font-size: 18px;
+	
+}
+
+.card-text9{
+	color: black;
+	text-decoration: none;
+	text-align: center;
+}
+
+.card-img-top9{
+	border-radius: 9px;
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+    width: 20rem;
+    align-items: center;
+
+}
+
+.card-body9{
+    text-align: center;
+    background-color: white;
+	border-radius: 10px;
+}
+
+/*Aqui comeca o 10 card certificado html css*/
+
+.container10 {
+	width: 60px;
+	height: 0vh;
+	display: grid;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	}
+
+.card10{
+	margin-top: 500px;
+	margin-left: 1865px;
+	border-radius: 9px ;
+	align-items: flex-start;
+    width: 20rem;
+    background-color: white;
+	font-size: 18px;
+	
+}
+
+.card-text10{
+	color: black;
+	text-decoration: none;
+	text-align: center;
+}
+
+.card-img-top10{
+	border-radius: 9px;
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+    width: 20rem;
+    align-items: center;
+
+}
+
+.card-body10{
+	text-align: center;
+    background-color: white;
+	border-radius: 10px;
+}
+
+
+/*Aqui começa o footer*/
+.footer{
+	margin-bottom: -1cm;
+	text-align: center;
+	background-color: white;
+}
+
+.text-dark1{
+	font-size: 17px;
+	text-decoration: none;
+}
+
+.text-dark2{
+	font-size: 17px;
+}
+
+.footer a:hover{
+	color: coral;
+	text-decoration: underline;
+}
+
+.text-dark3{
+	color: black;
+	text-decoration: none;
+	font-size: 17px;
+}
+
+.text-dark5 {
+	text-decoration: none;
+	font-size: 17px;
+}
+
+.text-dark4{
+	color: black;
+	text-decoration: none;
+	font-size: 17px;
+}
